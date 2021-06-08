@@ -5,10 +5,11 @@ body {
     padding: 0;
     margin: auto;
     margin-top: 20px;
+	background-color: palevioletred;
 }
 header {
     width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #E9072F;
     display: inline-block;
 }
 header .image {
@@ -29,8 +30,8 @@ header .name h3 {
     display: inline-block;
     clear: both;
     width: 100%;
-    border-bottom: 1px solid gray;
-    background-color: beige;
+    border-bottom: 1px solid #F90448;
+    background-color: pink;
 }
 #menu p {
     float: left;
@@ -77,17 +78,25 @@ footer {
     width: 100%;
     height: 130px;
     padding: 20px 0;
-    background-color: darkgrey;
+    background-color: pink;
 }
 
 footer h3 {
     padding: 0;
     margin: 0;
-    color: white;
+    color: deeppink;
+	
 }
 footer .textarea {
     /* Set width 99% để cho ô textarea vừa với footer */
     width: 99%;
     height: 50px;
     margin: 15px 0;
+}
+h2{
+	color: lightpink;
+	
+}
+p {
+	color: black
 }
